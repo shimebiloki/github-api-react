@@ -1,0 +1,28 @@
+.users {
+  display: flex;
+  flex-direction: column;
+}
+.follower {
+  display: flex;
+  align-items: center;
+}
+
+.card-followers {
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  width: 100vw;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image-follower {
+  border: solid 5px #fff;
+  border-radius: 100px;
+  max-height: 50px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
